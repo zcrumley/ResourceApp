@@ -1,8 +1,0 @@
-cd C:\Users\zac65\Desktop\ResourceApp\backend
-
-
-python manage.py runserver 0.0.0.0:8000  # Start Django server
-python manage.py makemigrations resources  # Make migrations
-python manage.py migrate  # Apply migrations
-python manage.py dbshell  # Open database shell
-python manage.py shell  # Open Django interactive shell
